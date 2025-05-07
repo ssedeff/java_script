@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LightBox Çalışması</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.min.css" integrity="sha512-xtV3HfYNbQXS/1R1jP53KbFcU9WXiSA1RFKzl5hRlJgdOJm4OxHCWYpskm6lN0xp0XtKGpAfVShpbvlFH3MDAA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row my-3">
+                <div class="col-12 text-center">
+                    <h1>JavaScript Giriş</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+       <div class="container">
+        <div class="row g-2">
+            <div class="col-md-4">
+                <a href="res/res1.jpg" data-lightbox="galeri1">
+                    <img src="res/tn_res1.jpg" alt="resim" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="res/res2.jpg" data-lightbox="galeri1">
+                    <img src="res/tn_res2.jpg" alt="resim" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="res/res3.jpg" data-lightbox="galeri1">
+                    <img src="res/tn_res3.jpg" alt="resim" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="res/res4.jpg" data-lightbox="galeri1">
+                    <img src="res/tn_res4.jpg" alt="resim" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="res/res5.jpg" data-lightbox="galeri1">
+                    <img src="res/tn_res5.jpg" alt="resim" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="res/res6.jpg" data-lightbox="galeri1">
+                    <img src="res/tn_res6.jpg" alt="resim" class="img-fluid">
+                </a>
+            </div>
+        </div> 
+
+
+        <div class="row">
+            <div class="owl-carousel owl-theme">
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+              </div>
+              
+        </div>
+    </div>
+    </main>
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- lightbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js" integrity="sha512-KbRFbjA5bwNan6DvPl1ODUolvTTZ/vckssnFhka5cG80JVa5zSlRPCr055xSgU/q6oMIGhZWLhcbgIC0fyw3RQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+    <!-- owl carousel 2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel();
+        });
+    </script>
+
+</body>
+</html>

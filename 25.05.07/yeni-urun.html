@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pelit Pastaneleri</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="sabit.css" />
+    <link rel="stylesheet" href="tasarim.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <!-- 1.üst kısım -->
+      <div class="bg-secondary">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 d-flex">
+              <!-- #lang-menu -->
+              <ul class="nav" id="lang-menu">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">tr</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">en</a>
+                </li>
+              </ul>
+              <!-- #social-menu -->
+              <ul class="nav" id="social-menu">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#"
+                    ><i class="bi bi-twitter-x"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    ><i class="bi bi-pinterest"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    ><i class="bi bi-linkedin"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+
+              <!-- #search-panel -->
+              <form id="search-panel" class="d-flex ms-auto" role="search">
+                <input
+                  class="form-control rounded-0 bg-primary text-white border-0"
+                  type="search"
+                  placeholder="ürün arayın"
+                  aria-label="Arama"
+                />
+                <button
+                  class="btn btn-primary rounded-0 border-0"
+                  type="submit"
+                >
+                  <i class="bi bi-search"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 2. üst kısım -->
+      <div class="">
+        <div class="container">
+          <div class="row justify-content-center py-2">
+            <div class="col-4 col-md-2">
+              <a href="index.html">
+                <img
+                  src="upload/pelit-logo-2-min.png"
+                  alt="Pelit Logo"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. üst kısım -->
+      <div class="bg-primary">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Ana Sayfa</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="yeni-urun.html">Yeni Ürün</a>
+                      </li>
+                      <!-- dropdown -->
+                      <li class="nav-item dropdown position-static">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Ürünler(mega)
+                        </a>
+                        <ul class="dropdown-menu start-0 end-0 m-0 p-3 rounded-0 border-0 bg-secondary-subtle"  data-bs-theme="light">
+                          <li>
+                            <!-- normal sayfa tasarımı gibi yapacağız -->
+                             <div class="container">
+                              <div class="row">
+                                <div class="col-12 col-md-3">
+                                  <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                      <a class="nav-link" aria-current="page" href="#">Active</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <div class="col-12 col-md-3">
+                                  <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                      <a class="nav-link" aria-current="page" href="#">Active</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <div class="col-12 col-md-6">Üçüncü</div>
+                              </div>
+                             </div>
+                          </li>
+                        </ul>
+                      </li>
+                      <!-- /dropdown -->
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Ürünler
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a href="https://google.com.tr" class="nav-link">Çikolata Müzesi</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="hediye.html" class="nav-link">Hediye Seçin</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="hakkimizda.html" class="nav-link">Hakkmızıda</a>
+                      </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a href="subeler.html" class="nav-link">Şubeler</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#siparisModal" class="btn btn-danger">Sipariş Ver</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+        <div class="container py-3">
+            <div class="row g-3">
+                <div class="col-3">
+                    <div class="card">
+                        <img src="upload/bavaruaz-4-350x267.jpg" class="card-img-top" alt="Bavaruz">
+                        <div class="card-body">
+                          <h5 class="card-title">Bavaruz Pasta</h5>
+                          <a href="#" class="btn btn-primary">İncele</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="upload/beyaz-inci-min.jpg" class="card-img-top" alt="Beyaz İnci">
+                        <div class="card-body">
+                          <h5 class="card-title">Beyaz İnci Pastası</h5>
+                          <a href="#" class="btn btn-primary">İncele</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="upload/cilek-muzlu-6-350x267.jpg" class="card-img-top" alt="Çilekli Muzlu">
+                        <div class="card-body">
+                          <h5 class="card-title">Çilekli Muzlu Pasta</h5>
+                          <a href="#" class="btn btn-primary">İncele</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="upload/mozaik-piramit-baton-1-350x267.jpg" class="card-img-top" alt="Mozaik">
+                        <div class="card-body">
+                          <h5 class="card-title">Mozaik Pasta</h5>
+                          <a href="#" class="btn btn-primary">İncele</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="upload/balkabakli-cheseecakes-1-350x267.jpg" class="card-img-top" alt="Balkabaklı">
+                        <div class="card-body">
+                          <h5 class="card-title">Balkabaklı Pasta</h5>
+                          <a href="#" class="btn btn-primary">İncele</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="upload/cikolatali-cheseecake1-1-350x267.jpg" class="card-img-top" alt="Çikolatalı">
+                        <div class="card-body">
+                          <h5 class="card-title">Çikolatalı Pasta</h5>
+                          <a href="#" class="btn btn-primary">İncele</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+              <div class="owl-carousel owl-theme">
+                <div class="card"> 
+                    <img src="upload/bavaruaz-4-350x267.jpg" class="img-fluid" alt="resim">
+               </div>
+                <div class="card"> 
+                    <img src="upload/beyaz-inci-min.jpg" class="img-fluid" alt="resim">
+               </div>
+                <div class="card"> 
+                    <img src="upload/cilek-muzlu-6-350x267.jpg" class="img-fluid" alt="resim">
+               </div>
+                <div class="card"> 
+                    <img src="upload/mozaik-piramit-baton-1-350x267.jpg" class="img-fluid" alt="resim">
+               </div>
+                <div class="card"> 
+                    <img src="upload/mozaik-piramit-baton-1-350x267.jpg" class="img-fluid" alt="resim">
+               </div>
+                <div class="card"> 
+                    <img src="upload//tartolet-min.jpg" class=" img-fluid" alt="resim">
+               </div>   
+              </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="bg-primary">
+      <!-- footer 1.satır -->
+      <div class="container">
+        <div class="row justify-content-center py-3">
+          <div class="col-3 col-md-1">
+            <a href="index.html">
+              <img
+                src="upload/logo-bottom-min.png"
+                alt="Logo"
+                class="img-fluid opacity-25"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="row justify-content-center pb-3">
+          <hr class="border border-white border-1 opacity-25 w-50" />
+        </div>
+
+        <div class="row pb-3">
+          <div class="col-12">
+            <nav class="nav justify-content-center">
+              <a class="nav-link link-light link-opacity-25" href="#">Active</a>
+              <a class="nav-link link-light link-opacity-25" href="#">Link</a>
+              <a class="nav-link link-light link-opacity-25" href="#">Link</a>
+              <a class="nav-link link-light link-opacity-25" href="#">Link</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-secondary py-2">
+        <div class="container">
+          <div class="row  align-items-center">
+            <div class="col-md-4">
+              <p class="fs-5 text-light m-0">Pelit yıllardır sizinle…</p>
+            </div>
+
+            <div class="col-md-4">
+              <p class="text-white text-center m-0">Pelit 2020 © Tüm hakları saklıdır</p>
+            </div>
+
+            <div class="col-md-4">
+              <!-- #social-menu -->
+              <ul class="nav justify-content-end" id="social-bottom-menu">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#"
+                    ><i class="bi bi-twitter-x"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    ><i class="bi bi-pinterest"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    ><i class="bi bi-linkedin"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- sipariş modal -->
+    <div class="modal fade" tabindex="-1" id="siparisModal">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div><div class="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+
+
+    <script>
+      $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+          loop: true,       // Sonsuz döngü aktif
+          autoplay: true,      
+          margin: 10,         // Öğeler arası boşluk
+          responsive: {
+            0:    { items: 1 },
+            576:  { items: 2 },
+            768:  { items: 3 },
+            992:  { items: 4 }
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

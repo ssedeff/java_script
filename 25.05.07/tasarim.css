@@ -1,0 +1,44 @@
+.btn-primary{
+    background-color: var(--bs-primary);
+}
+
+/* header */
+
+
+#lang-menu{
+    border-right: var(--bs-border-width) solid var(--bs-white);
+}
+#lang-menu a,
+#social-menu a,
+#social-bottom-menu a{
+    color: var(--bs-white);
+}
+
+#lang-menu a:hover{
+    color: var(--bs-black);
+    background-color: var(--bs-white);
+}
+
+#social-menu a:hover,
+#social-bottom-menu a:hover{
+    color:var(--bs-primary);
+}
+
+#search-panel input::placeholder{
+    color:var(--bs-secondary);
+}
+
+#search-panel button:hover{
+    background-color: var(--bs-secondary);
+}
+
+#search-panel .form-control:focus {
+
+    outline: none;
+    box-shadow: none;
+}
+
+/* main */
+#bolum1-kart{
+
+}
